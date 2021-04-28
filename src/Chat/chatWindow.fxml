@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Chat.Controller">
+      <TextArea fx:id="chatArea" prefHeight="393.0" prefWidth="600.0" editable="false"/>
+      <HBox prefHeight="0.0" prefWidth="600.0">
+            <TextField fx:id="chatField" prefHeight="25.0" prefWidth="571.0" onAction="#clickSendBtn"/>
+            <Button alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#clickSendBtn" prefHeight="25.0" prefWidth="72.0" text="Send..."/>
+      </HBox>
+</VBox>
