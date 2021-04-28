@@ -24,12 +24,4 @@ public class Controller {
     public void clickSendBtn(ActionEvent actionEvent) {
         sendMessage();
     }
-
-    public void clickEnter(ActionEvent actionEvent) {
-        chatField.setOnKeyPressed(event -> {
-            if(event.getCode().equals(KeyCode.ENTER)){
-                sendMessage();
-            }
-        });
-    }
 }
