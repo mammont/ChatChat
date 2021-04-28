@@ -8,9 +8,6 @@
       <TextArea fx:id="chatArea" prefHeight="393.0" prefWidth="600.0" editable="false"/>
       <HBox prefHeight="0.0" prefWidth="600.0">
             <TextField fx:id="chatField" prefHeight="25.0" prefWidth="571.0" onAction="#clickSendBtn"/>
-            <Button alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#clickSendBtn" prefHeight="25.0" prefWidth="72.0" text="Send...">
-               <HBox.margin>
-                  <Insets />
-               </HBox.margin></Button>
+            <Button alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#clickSendBtn" prefHeight="25.0" prefWidth="72.0" text="Send..."/>
       </HBox>
 </VBox>
